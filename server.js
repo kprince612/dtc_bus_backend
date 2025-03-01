@@ -3,7 +3,6 @@ const mongoose = require ("mongoose");
 const bodyParser = require ("body-parser");
 const cors = require ("cors");
 const nodemailer = require ("nodemailer");
-const { handleSuccess } = require("../end_user/src/utils");
 const app = express ();
 const PORT = 5000;
 
