@@ -6,7 +6,7 @@ const nodemailer = require ("nodemailer");
 const app = express ();
 const PORT = 5000;
 
-app.use (cors());
+app.use(cors({ origin: "https://dtc-bus-end-user.vercel.app/" }));
 app.use (express.json ());
 
 app.use (bodyParser.json ());
