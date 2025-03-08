@@ -20,4 +20,4 @@ Database: MongoDB
 
 Auth: SignUp / SignIn
 
-Deployment: Render / Railway
+Deployment: Render
