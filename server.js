@@ -141,7 +141,7 @@ app.post ("/api/send-booking-info", async (req, res) => {
         service: 'gmail',
         auth: {
             user: "princekhandelwal412@gmail.com",
-            pass: "fwpz chtd rqax ctct",
+            pass: "eabz jnzt cjpz fdtw",
         },
     });
 
